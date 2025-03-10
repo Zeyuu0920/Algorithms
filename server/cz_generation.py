@@ -188,6 +188,7 @@ def find_adjacent_cbgs(gdf, current_cbg):
 
 def create_cluster(core_cbg, min_pop):
   global gdf
+  
   visited = {core_cbg}
   queue = [core_cbg]
   cluster = []
@@ -207,4 +208,4 @@ def create_cluster(core_cbg, min_pop):
         queue.append(neighbor)
         visited.add(neighbor)
               
-  return cluster, total_population
+  return cluster, total_population, cbg_geocode(core_cbg)
