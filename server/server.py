@@ -4,8 +4,9 @@ from cz_generation import create_cluster
 import requests
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route('/generate-cz')
+@app.route('/generate-cz', methods=['POST'])
 @cross_origin()
 def route_generate_cz():
   try:
