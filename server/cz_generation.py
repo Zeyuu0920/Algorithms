@@ -6,9 +6,7 @@ from pyzipcode import ZipCodeDatabase
 
 # CONSTANTS (need to be changed)
 location_name = 'baltimore'
-core_cbg = '245101001001'
-min_cluster_pop = 50_000
-states = [ 'MD', 'PA' ]
+states = [ 'MD', 'PA', 'MN', 'WI', 'AK', 'OK', 'NY', 'NJ' ]
 
 zcdb = ZipCodeDatabase()
 

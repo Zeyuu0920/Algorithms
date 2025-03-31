@@ -31,4 +31,4 @@ def route_generate_cz():
   return jsonify(resp.json())
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=1738)
+  app.run(host='0.0.0.0', port=1880)
