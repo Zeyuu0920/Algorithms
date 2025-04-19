@@ -1,0 +1,13 @@
+total_population: 10000
+female_percent: 50.5
+male_percent: 49.5
+family_percents:
+  married: 40
+  opposite_sex: 30
+  samesex: 15
+  female_single: 10
+  male_single: 5
+  other: 5
+age_percent_married: [20, 30, 50]
+age_groups_married: [20, 30, 40]
+count: 1  # Initialize count to 1 (or any starting value)
